@@ -1,3 +1,4 @@
+#%%
 # coding: utf-8
 import sys
 sys.path.append('..')  # 부모 디렉터리의 파일을 가져올 수 있도록 설정
@@ -30,3 +31,5 @@ trainer.plot()
 word_vecs = model.word_vecs
 for word_id, word in id_to_word.items():
     print(word, word_vecs[word_id])
+
+# %%
